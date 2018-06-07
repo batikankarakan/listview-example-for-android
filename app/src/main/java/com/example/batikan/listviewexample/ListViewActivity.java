@@ -66,7 +66,7 @@ public class ListViewActivity extends AppCompatActivity {
                 diyalogOlusturucu.setMessage(map.get(ulke))
 
                         .setCancelable(false)
-                        .setPositiveButton("Tamam", new DialogInterface.OnClickListener() {
+                        .setPositiveButton("Okay", new DialogInterface.OnClickListener() {
                                     @Override
                                     public void onClick(DialogInterface dialog, int which) {
                                     }
